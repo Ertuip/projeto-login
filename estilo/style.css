@@ -1,7 +1,8 @@
 @charset "UTF-8";
 
 :root {
-    
+    --verd: #49a09d;
+    --lilas: #5f2c82;   
 }
 
 * {
@@ -12,7 +13,7 @@
 }
 
 body, html {
-    background-color: #5f2c82;
+    background-image: linear-gradient(to bottom, var(--lilas), var(--verd));
     height: 100vh;
     width: 98vw;
 }
@@ -28,9 +29,61 @@ main {
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: white;
-    display: flexbox;
-    justify-content: flex-end;
-    align-self: center;
+    border-radius: 25px;
     height: 600px;
-    width: 250px;
+    width: 300px;
+}
+
+#form > h1 {
+    text-align: center;
+}
+
+#form > p {
+    text-align: center;
+}
+
+.conf {
+    background-color: #5f2c82;
+    border-radius: 10px;
+    width: 220px;
+    margin: 10px auto;
+    padding: 2px 0px 2px 29px;
+}
+
+#conf12 {
+    margin: -20px auto;
+}
+
+#us {
+    margin: 0px 0px 0px -25px;
+    padding: 5px;
+}
+
+#us1 {
+    margin: 0px 0px 0px -25px;
+    padding: 5px;
+}
+
+#iusername {
+    border-radius: 10px;
+    margin: 0px 0px 0px 5px;
+    border: none;
+    padding: 10px 5px 10px 0px;
+    width: 177px;
+}
+
+#iuserpass {
+    border-radius: 10px;
+    margin: 0px 0px 0px 3px;
+    border: none;
+    padding: 10px 5px 10px 0px;
+    width: 177px;
+}
+
+img {
+    min-width: 300px;
+    max-height: 260px;
+    background-size: cover;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
 }

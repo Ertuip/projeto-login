@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="estilo/style.css">
+    <script src="https://kit.fontawesome.com/51aef49069.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <main>
@@ -13,10 +14,21 @@
 
             </div>
             <div id="form">
+                <img src="imagens/img.jpg" alt="">
                 <h1>Login</h1>
-                <p>Seja Bem-Vindo(a) novamente! Faça login para acessar sua conta.</p>
+                <p>Seja Bem-Vindo(a) novamente! <p>Faça login para acessar sua conta.</p></p>
                 <form action="login.php" method="post">
-
+                    <div class="conf">
+                        <i class="fa-solid fa-user fa-lg" id="us" style="color: white;"></i>
+                        <input type="text" name="username" id="iusername">
+                    </div><br>
+                    <div class="conf" id="conf12">
+                        <i class="fa-solid fa-key fa-flip-horizontal fa-lg" id="us1" style="color: white;"></i>
+                        <input type="password" name="userpass" id="iuserpass">
+                    </div><br>
+                    <input type="submit" value="Entrar">
+                    <br>
+                    <a href="#">Esqueci Minha Senha</a>
                 </form>
             </div>
         </section>
