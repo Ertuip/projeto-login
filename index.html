@@ -20,13 +20,13 @@
                 <form action="login.php" method="post">
                     <div class="conf">
                         <i class="fa-solid fa-user fa-lg" id="us" style="color: white;"></i>
-                        <input type="text" name="username" id="iusername">
+                        <input type="text" name="username" id="iusername" placeholder="Email ou Nome de Usuário" max="30" required autocomplete="off">
                     </div><br>
                     <div class="conf" id="conf12">
                         <i class="fa-solid fa-key fa-flip-horizontal fa-lg" id="us1" style="color: white;"></i>
-                        <input type="password" name="userpass" id="iuserpass">
+                        <input type="password" name="userpass" id="iuserpass" placeholder="Senha" required>
                     </div><br>
-                    <input type="submit" value="Entrar">
+                    <input type="submit" value="Entrar" id="submit">
                     <br>
                     <a href="#">Esqueci Minha Senha</a>
                 </form>
